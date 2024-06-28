@@ -338,10 +338,10 @@ impl ViveDevice {
 	}
 }
 
-#[test]
-fn test() -> Result<()> {
-	let dev = ViveDevice::open_first()?;
-	dbg!(dev.read_config()?);
-	dev.set_mode(1)?;
-	Ok(())
-}
+// #[test]
+// fn test() -> Result<()> {
+// 	let dev = ViveDevice::open_first()?;
+// 	dbg!(dev.read_config()?);
+// 	dev.set_mode(1)?;
+// 	Ok(())
+// }
